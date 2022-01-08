@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "IfFormula-swift",
+    name: "IfFormula",
     platforms: [.iOS(.v8), .macOS(.v10_10)],
     products: [
         .library(
-            name: "IfFormula-swift",
-            targets: ["IfFormula-swift"]),
+            name: "IfFormula",
+            targets: ["IfFormula"]),
     ],
     targets: [
         .target(
-            name: "IfFormula-swift",
+            name: "IfFormula",
             dependencies: []),
         .testTarget(
-            name: "IfFormula-swiftTests",
-            dependencies: ["IfFormula-swift"]),
+            name: "IfFormulaTests",
+            dependencies: ["IfFormula"]),
     ]
 )

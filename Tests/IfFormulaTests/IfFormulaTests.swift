@@ -1,5 +1,5 @@
 import XCTest
-@testable import IfFormula_swift
+@testable import IfFormula
 
 final class IfFormula_swiftTests: XCTestCase {
     func testResultIf() throws {
